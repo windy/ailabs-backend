@@ -1,0 +1,53 @@
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints
+
+# Node.js related
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.npm/
+.yarn/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build and output folders
+dist/
+build/
+.cache/
+out/
+public/dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
